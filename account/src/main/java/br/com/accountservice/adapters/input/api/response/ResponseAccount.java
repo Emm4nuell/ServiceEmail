@@ -11,9 +11,6 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class RequestAccount {
-    private String name;
-    private String document;
-    private String email;
-    private Date birthdate;
+public class ResponseAccount {
+    private String mensage;
 }

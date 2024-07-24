@@ -18,6 +18,8 @@ public class AccountService implements ICreateAccountService {
                 .document(accountModel.getDocument())
                 .email(accountModel.getEmail())
                 .birthdate(accountModel.getBirthdate())
+                .account_status(accountModel.getAccount_status())
+                .account_data(accountModel.getAccount_data())
                 .build();
         log.info("Service adapters --> " + entity.toString());
     }

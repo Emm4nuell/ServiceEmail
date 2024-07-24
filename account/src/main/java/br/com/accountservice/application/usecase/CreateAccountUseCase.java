@@ -6,6 +6,8 @@ import br.com.accountservice.application.ports.out.ICreateAccountService;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
+import java.time.LocalDateTime;
+
 @Slf4j
 @AllArgsConstructor
 public class CreateAccountUseCase implements ICreateAccontUseCase {
@@ -14,6 +16,8 @@ public class CreateAccountUseCase implements ICreateAccontUseCase {
 
     @Override
     public void create(AccountModel model) {
+        model.setAccount_status(false);
+        model.setAccount_data(LocalDateTime.now());
         iCreateAccountService.create(model);
         log.info("Access create account usecase!");
     }

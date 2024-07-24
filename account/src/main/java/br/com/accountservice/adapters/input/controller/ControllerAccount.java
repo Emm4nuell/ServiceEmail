@@ -1,8 +1,8 @@
 package br.com.accountservice.adapters.input.controller;
 
 import br.com.accountservice.adapters.input.api.IApiController;
-import br.com.accountservice.adapters.input.api.request.ResponseAccount;
-import br.com.accountservice.adapters.input.api.response.RequestAccount;
+import br.com.accountservice.adapters.input.api.response.ResponseAccount;
+import br.com.accountservice.adapters.input.api.request.RequestAccount;
 import br.com.accountservice.application.domain.model.AccountModel;
 import br.com.accountservice.application.ports.in.ICreateAccontUseCase;
 import lombok.AllArgsConstructor;

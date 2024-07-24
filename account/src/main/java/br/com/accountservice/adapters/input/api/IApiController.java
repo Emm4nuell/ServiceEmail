@@ -1,7 +1,7 @@
 package br.com.accountservice.adapters.input.api;
 
-import br.com.accountservice.adapters.input.api.request.ResponseAccount;
-import br.com.accountservice.adapters.input.api.response.RequestAccount;
+import br.com.accountservice.adapters.input.api.response.ResponseAccount;
+import br.com.accountservice.adapters.input.api.request.RequestAccount;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
