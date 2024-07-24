@@ -28,7 +28,7 @@ public class AccountService implements ICreateAccountService {
                 .account_status(accountModel.getAccount_status())
                 .account_data(accountModel.getAccount_data())
                 .build();
-        iAccountRepository.save(entity);
+//        iAccountRepository.save(entity);
         log.info("Account save success --> " + entity.toString());
     }
 }
