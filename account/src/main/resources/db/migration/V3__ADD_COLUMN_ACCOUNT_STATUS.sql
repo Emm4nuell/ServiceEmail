@@ -1,0 +1,1 @@
+alter table accounts add column account_status boolean;

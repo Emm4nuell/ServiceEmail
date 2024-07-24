@@ -1,0 +1,1 @@
+alter table accounts add column update_data TIMESTAMP;
