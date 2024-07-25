@@ -17,12 +17,18 @@
 
     <modules>
         <module>account</module>
+        <module>send-email-aws</module>
     </modules>
 
 	<properties>
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-mail</artifactId>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.amqp</groupId>
